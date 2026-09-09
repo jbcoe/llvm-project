@@ -9,6 +9,7 @@
 #include "../ClangTidy.h"
 #include "../ClangTidyModule.h"
 #include "CallGuardInitCheck.h"
+#include "CastInLockCheck.h"
 
 namespace clang::tidy {
 namespace pybind {
@@ -17,6 +18,7 @@ class PybindModule : public ClangTidyModule {
 public:
   void addCheckFactories(ClangTidyCheckFactories &CheckFactories) override {
     CheckFactories.registerCheck<CallGuardInitCheck>("pybind-call-guard-init");
+    CheckFactories.registerCheck<CastInLockCheck>("pybind-cast-in-lock");
   }
 };
 

@@ -5,6 +5,7 @@ set(LLVM_LINK_COMPONENTS
 
 add_clang_library(clangTidyPybindModule STATIC
   CallGuardInitCheck.cpp
+  CastInLockCheck.cpp
   PybindTidyModule.cpp
 
   LINK_LIBS

@@ -13,6 +13,7 @@ static_library("pybind") {
   ]
   sources = [
     "CallGuardInitCheck.cpp",
+    "CastInLockCheck.cpp",
     "PybindTidyModule.cpp",
   ]
 }

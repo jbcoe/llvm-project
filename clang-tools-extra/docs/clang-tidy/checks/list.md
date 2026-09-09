@@ -382,6 +382,7 @@ readability/*
 | {doc}`portability-std-allocator-const <portability/std-allocator-const>` |  |
 | {doc}`portability-template-virtual-member-function <portability/template-virtual-member-function>` |  |
 | {doc}`pybind-call-guard-init <pybind/call-guard-init>` |  |
+| {doc}`pybind-cast-in-lock <pybind/cast-in-lock>` |  |
 | {doc}`readability-ambiguous-smartptr-reset-call <readability/ambiguous-smartptr-reset-call>` | Yes |
 | {doc}`readability-avoid-const-params-in-decls <readability/avoid-const-params-in-decls>` | Yes |
 | {doc}`readability-avoid-nested-conditional-operator <readability/avoid-nested-conditional-operator>` |  |
